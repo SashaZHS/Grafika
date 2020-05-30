@@ -4,7 +4,7 @@ from PIL import Image
 import scipy.ndimage.filters as flt
 import numpy as np
 
-img_gray = img_as_int(cv2.imread('giraffe.jpg', 0))
+img_gray = img_as_int(cv2.imread('fox.jpg', 0))
 
 
 sobel_vertical = np.array([

@@ -2,7 +2,7 @@ from PIL import  Image
 from PIL import ImageFilter
 from pylab import *
 
-image  = Image.open('man_bgw.jpg')
+image  = Image.open('test.JPG')
 figure (figsize=(15,15))
 titles = ["Original", "Contour", "Detail", "Edge Enhance", "Edge Enhance More", "Emboss", "Find Edges", "Lowpass1", "Lowpass 2", "Sharpen"]
     # ,"Custom Filter 1", "Custom Filter 2"]
